@@ -1,0 +1,500 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:rgb(102, 101, 101);
+    font-size: 1rem;
+
+  }
+  body {
+     background-color: rgb(212, 212, 212);
+     font-family: 'Poppins', sans-serif;
+  }
+
+  h1 {
+    font-style: bold;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+
+  }
+
+ h3 {
+   
+    padding: 10px 0;
+ }
+
+ .nav-ul {
+   
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  list-style: none;
+
+}
+
+.nav-ul a li {
+  color: #ffffff;
+  padding: 10px 30px;
+  background-color: #928c8c;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.nav-ul a {
+  margin: 0 10px;
+  text-decoration: none;
+
+}
+
+.nav-ul a li:hover {
+  background-color: coral;
+}
+
+
+ .img-1, .img-fishing, .img-gamming {
+  height: 100%;
+  border-radius: 10px;
+}
+
+
+
+.container {
+      
+  display:grid;
+  margin: 4rem 8rem 8rem 8rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(20, 95px);
+  grid-gap: 1.5rem;
+    
+  
+}
+
+.div-1 {
+  display:flex;
+  flex-direction;
+  justify-content: ;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  grid-column: 1 / 4 ;
+  grid-row: 1 / 4;
+  overflow-y: hidden;
+
+}
+
+.text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-left: 45px;
+ 
+}
+  	
+.text h1 {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  align-self: flex-start;
+
+}
+
+.front-developer {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  align-self: flex-end;
+  padding:  0;
+
+}
+
+.one {
+  grid-column: 3 / 4;
+  grid-row: 1;
+  justify-self: flex-end;
+
+}
+
+.two {
+  margin: 30px 0;
+  grid-column: 3 / 4;
+  grid-row: 1;
+  justify-self: flex-end;
+
+}
+
+.self {
+  grid-column: 1 / 3;
+  grid-row: 2;
+  align-self: flex-end;
+
+}
+
+.div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding:0 15px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  grid-column: 1 / 2;
+  grid-row: 4 / 7;
+
+}
+
+  .div-2 > h3 {
+  padding: 20px 0;
+
+}
+
+  .skill {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  padding: 10px 0;
+  
+}
+  
+.bar {
+  width: 150px;
+  height: 10px;
+  border: 1px solid rgb(66, 63, 63);
+  border-radius: 4px;
+
+}
+
+.react {
+  width: 130px;
+  height: 9px;
+  background-color:  rgba(47, 128, 237, 0.7);
+   
+}
+  .javascript {
+  width: 130px;
+  height: 9px;
+  background-color:  rgba(47, 128, 237, 0.7);
+   
+}
+  
+.css {
+  width:140px;
+  height: 9px;
+  background-color:  rgba(47, 128, 237, 0.7);
+   
+}
+  
+.vue {
+  
+  width: 110px;
+  height: 9px;
+  background-color:  rgba(47, 128, 237, 0.7);
+   
+}
+
+.react {
+  
+  width: 100px;
+  height: 9px;
+  background-color:  rgba(47, 128, 237, 0.7);
+   
+}
+.redux {
+  
+  width: 140px;
+  height: 9px;
+  background-color:  rgba(47, 128, 237, 0.7);
+   
+}
+  
+.react-native {
+  width: 120px;
+  height: 9px;
+  background-color:  rgba(47, 128, 237, 0.7);
+   
+}
+
+.div-9 {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  grid-column: 2 / 4;
+  grid-row:  4 / 8;
+    
+}
+
+   .how-to {
+  grid-column: 1 / 4;
+  grid-row:  3 / 4;
+  align-self: flex-start;
+  
+
+}
+.img-blog {
+  justify-self: flex-end;
+  margin-right: -20px;
+  padding-top: 15px;
+
+}
+
+.div-11 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  grid-column: 1 / 2;
+  grid-row: 7 / 14;
+  
+}
+   
+  
+.img-fishing, .img-gamming {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+
+}
+
+.div-10 {
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  grid-column: 2 / 4;
+  grid-row: 8 / 14;
+  
+}
+
+.adidas {
+
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr ;
+  grid-row: 2rem;
+
+}
+.adidas svg {
+  align-self: flex-end;
+  grid-column: 1;
+  grid-row: 1 / 4 ;
+  padding: 2rem 0;
+
+}
+
+.wrapper {
+  padding: 10px;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  align-self: flex-end;
+
+}
+
+.par {
+  grid-column: 2 / 3;
+  grid-row: 2 / 4 ;
+
+}
+
+.hm {
+
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr ;
+  padding: 2rem 0;
+
+}
+
+.hm svg {
+    align-self: center;
+    grid-column: 1;
+    grid-row: 1 /4 ;
+
+}
+
+.nivea {
+
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr ;
+  padding: 2rem 0;
+
+}
+
+.nivea svg {
+  align-self: flex-end;
+  grid-column: 1;
+  grid-row: 1 /4 ;
+
+}
+
+.div-4 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  grid-column: 1 / 4;
+  grid-row: 14 / 15;
+  width: 100%;
+
+}
+
+button {
+  margin: 20px 10px;
+  padding: 7px 30px;
+  color: rgba(20, 105, 216, 0.856);
+  background-color:rgb(230, 230, 230);
+  border-radius: 8px;
+   border: none;
+
+}
+  
+.active {
+  background-color: #156bbb;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+
+}
+  
+  button:hover {
+  background-color: #156bbb;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+.div-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  grid-column: 1 / 2;
+  grid-row: 15 / 20;
+    
+}
+
+.image-recipe {
+  width: 100%;
+  height: auto;
+
+}
+
+.div-5-text {
+  justify-self: center;
+  padding: 60px 0;
+
+}
+
+.div-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  grid-column: 2 / 3;
+  grid-row: 15 / 20;
+   
+}
+.div-6-text {
+  justify-self: center;
+  padding: 10px 0;
+
+}
+
+.image-galery {
+  width: 100%;
+  height: auto;
+
+}
+
+.div-7 {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  grid-column: 3 / 4;
+  grid-row: 15 / 20;
+ 
+}
+
+.div-7-text {
+  justify-self: center;
+  padding:  70px 0 ;
+}
+
+.image-check {
+  width: 100%;
+  height: auto;
+
+}
+
+.div-12 {
+
+  display: grid;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1 / 4;
+  grid-row: 20 / 21;
+
+}
+
+.div-12 button {
+
+  font-size: 0.6rem ;
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  border-radius: none;
+  
+}
+
+.div-12-buttons {
+  grid-column: 2;
+  align-self: center;
+  justify-self: flex-end;
+
+}
+
+
+
+.fas {
+  color: #ffffff;
+
+}
+
+.potpis {
+  text-align: center;
+  color:coral;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+
+}
+
+.potpis a {
+  text-decoration: none;
+  color:coral;
+  font-size: 1.2rem;
+
+}
+
